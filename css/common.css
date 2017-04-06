@@ -1,15 +1,38 @@
 body{font-family: 微软雅黑;}
 a{font-family: 微软雅黑;}
-/*.container{padding: 0;}*/
+.container{padding: 0;}
+
+/*//标记颜色*/
+.header .top .container{background: lightpink;}
+.header .body .container{background: lightyellow;}
 
 .header .top{height: 20px;background: #52971a;}
-.header .top a{float:left;font-size: 12px;color: #fff;line-height: 20px;}
-.header .top ul li{float: left;}
-.header .top ul li a{float: left;}
+.header .top .container a{float:left;height:20px;font-size: 12px;color: #fff;line-height: 20px;text-decoration: none;}
+.header .top .container a.signin{margin-left: 43px;}
+.header .top .container a.signup{margin-left: 30px;}
+.header .top .container ul li{float: left;padding: 0 10px;}
+.header .top .container ul li a{float: left;}
+.header .top .container ul li .iconfont{color: #fff;font-size: 16px;line-height: 20px;}
+
+.header .body{border-bottom: 2px solid #52971a;}
+.header .body .container{position: relative;height: 118px;}
+.header .body .container .logo{position: absolute;left:50%;margin-left: -52px;top: 10px; width: 105px;height: 100px;}
+.header .body .container .logo{width: 105px;height: 100px;}
+.header .body .container ul{margin-top: 58px;margin-left: 150px;}
+.header .body .container ul li{float: left;margin-right: 57px;}
+.header .body .container ul li:nth-child(3){margin-right: 250px;}
+.header .body .container ul li a{display: block;width: 70px;height:60px;font-size:16px;line-height: 60px;color: #464646;
+    text-decoration: none;}
+
+.header .search{float: right; margin-right: 136px; margin-top: 34px;}
+.header .search > div > input{height: 24px;width:158px;border: 1px solid #464646;padding-right: 25px;text-indent: 8px;}
+.header .search > div{position: relative;}
+.header .search > div > a{position: absolute;right: 6px;top: 0px;display:block;text-decoration: none;}
+.header .search > div > a i{color: #464646;}
+.header .search > p {color: #52971a;height: 24px;line-height: 24px;font-size: 14px;margin-left: 15px;}
 
 
-@media screen and (min-width:1200px){
-}
+@media screen and (min-width:1200px){ }
 
 @media screen and (max-width: 1199px) {
     /*.header .top{display: none;}*/

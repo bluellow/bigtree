@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://v3.bootcss.com/customize/?id=724e6067ff5aad143014c13815ea7b2e)
- * Config saved to config.json and https://gist.github.com/724e6067ff5aad143014c13815ea7b2e
+ * Generated using the Bootstrap Customizer (http://v3.bootcss.com/customize/?id=f7b735cfe9dcbcf2a724f9ed66f5ed5f)
+ * Config saved to config.json and https://gist.github.com/f7b735cfe9dcbcf2a724f9ed66f5ed5f
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -1595,17 +1595,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 710px;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 980px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1200px;
   }
 }
 .container-fluid {
