@@ -1,0 +1,32 @@
+body{font-family: 微软雅黑;}
+a{font-family: 微软雅黑;}
+/*.container{padding: 0;}*/
+
+.header .top{height: 20px;background: #52971a;}
+.header .top a{float:left;font-size: 12px;color: #fff;line-height: 20px;}
+.header .top ul li{float: left;}
+.header .top ul li a{float: left;}
+
+
+@media screen and (min-width:1200px){
+}
+
+@media screen and (max-width: 1199px) {
+    /*.header .top{display: none;}*/
+    /*.header .navbar{border: none;height: 80px;}*/
+}
+
+@media screen and (max-width: 1023px){
+}
+
+
+
+
+
+
+
+
+
+
+
+
