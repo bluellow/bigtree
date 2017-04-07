@@ -14,29 +14,34 @@ a{font-family: 微软雅黑;}
 .header .top .container ul li a{float: left;}
 .header .top .container ul li .iconfont{color: #fff;font-size: 16px;line-height: 20px;}
 
+
+
 .header .body{border-bottom: 2px solid #52971a;}
+.header .body .navbar{border: none;margin: 0;}
 .header .body .container{position: relative;height: 118px;}
 .header .body .container .logo{position: absolute;left:50%;margin-left: -52px;top: 10px; width: 105px;height: 100px;}
 .header .body .container .logo{width: 105px;height: 100px;}
-.header .body .container ul{margin-top: 58px;margin-left: 150px;}
+.header .body .container ul{margin-left: 150px;}
 .header .body .container ul li{float: left;margin-right: 57px;}
 .header .body .container ul li:nth-child(3){margin-right: 250px;}
 .header .body .container ul li a{display: block;width: 70px;height:60px;font-size:16px;line-height: 60px;color: #464646;
-    text-decoration: none;}
+    text-decoration: none;padding: 0;}
 
 .header .search{float: right; margin-right: 136px; margin-top: 34px;}
 .header .search > div > input{height: 24px;width:158px;border: 1px solid #464646;padding-right: 25px;text-indent: 8px;}
 .header .search > div{position: relative;}
-.header .search > div > a{position: absolute;right: 6px;top: 0px;display:block;text-decoration: none;}
-.header .search > div > a i{color: #464646;}
+.header .search > div > a{position: absolute;right: 2px;top: 0px;display:block;text-decoration: none;width: 24px;height: 24px;text-align: center;
+    }
+.header .search > div > a i{color: #464646;font-size: 16px;line-height: 24px;}
 .header .search > p {color: #52971a;height: 24px;line-height: 24px;font-size: 14px;margin-left: 15px;}
 
 
 @media screen and (min-width:1200px){ }
 
 @media screen and (max-width: 1199px) {
-    /*.header .top{display: none;}*/
-    /*.header .navbar{border: none;height: 80px;}*/
+    .header .body .container ul{margin-left: 43px;}
+    .header .search{margin-right: 28px;}
+
 }
 
 @media screen and (max-width: 1023px){

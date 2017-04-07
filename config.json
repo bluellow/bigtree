@@ -118,10 +118,10 @@
     "@screen-xs": "480px",
     "@screen-xs-min": "@screen-xs",
     "@screen-phone": "@screen-xs-min",
-    "@screen-sm": "768px",
+    "@screen-sm": "750px",
     "@screen-sm-min": "@screen-sm",
     "@screen-tablet": "@screen-sm-min",
-    "@screen-md": "992px",
+    "@screen-md": "1024px",
     "@screen-md-min": "@screen-md",
     "@screen-desktop": "@screen-md-min",
     "@screen-lg": "1200px",
@@ -131,14 +131,14 @@
     "@screen-sm-max": "(@screen-md-min - 1)",
     "@screen-md-max": "(@screen-lg-min - 1)",
     "@grid-columns": "12",
-    "@grid-gutter-width": "30px",
+    "@grid-gutter-width": "0px",
     "@grid-float-breakpoint": "@screen-sm-min",
     "@grid-float-breakpoint-max": "(@grid-float-breakpoint - 1)",
-    "@container-tablet": "(680px + @grid-gutter-width)",
+    "@container-tablet": "710px",
     "@container-sm": "@container-tablet",
-    "@container-desktop": "(950px + @grid-gutter-width)",
+    "@container-desktop": "980px",
     "@container-md": "@container-desktop",
-    "@container-large-desktop": "(1170px + @grid-gutter-width)",
+    "@container-large-desktop": "1200px",
     "@container-lg": "@container-large-desktop",
     "@navbar-height": "50px",
     "@navbar-margin-bottom": "@line-height-computed",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://v3.bootcss.com/customize/?id=f7b735cfe9dcbcf2a724f9ed66f5ed5f"
+  "customizerUrl": "http://v3.bootcss.com/customize/?id=d6294d426cdb6a4515382ffc559125e5"
 }
