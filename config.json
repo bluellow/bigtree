@@ -118,21 +118,21 @@
     "@screen-xs": "480px",
     "@screen-xs-min": "@screen-xs",
     "@screen-phone": "@screen-xs-min",
-    "@screen-sm": "750px",
+    "@screen-sm": "710px",
     "@screen-sm-min": "@screen-sm",
     "@screen-tablet": "@screen-sm-min",
-    "@screen-md": "1024px",
+    "@screen-md": "980px",
     "@screen-md-min": "@screen-md",
     "@screen-desktop": "@screen-md-min",
     "@screen-lg": "1200px",
     "@screen-lg-min": "@screen-lg",
     "@screen-lg-desktop": "@screen-lg-min",
     "@screen-xs-max": "(@screen-sm-min - 1)",
-    "@screen-sm-max": "(@screen-md-min - 1)",
-    "@screen-md-max": "(@screen-lg-min - 1)",
+    "@screen-sm-max": "750px",
+    "@screen-md-max": "1199px",
     "@grid-columns": "12",
     "@grid-gutter-width": "0px",
-    "@grid-float-breakpoint": "@screen-sm-min",
+    "@grid-float-breakpoint": "751px",
     "@grid-float-breakpoint-max": "(@grid-float-breakpoint - 1)",
     "@container-tablet": "710px",
     "@container-sm": "@container-tablet",
@@ -431,5 +431,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://v3.bootcss.com/customize/?id=d6294d426cdb6a4515382ffc559125e5"
+  "customizerUrl": "http://v3.bootcss.com/customize/?id=153d4db9d94b659aafd26a2d5557734c"
 }
